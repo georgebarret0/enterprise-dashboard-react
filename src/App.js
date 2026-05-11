@@ -1,5 +1,5 @@
 const { createElement: h, useEffect, useMemo, useState } = React;
-const data = window.opsDashboardData;
+const data = window.enterpriseDashboardData;
 
 const currency = new Intl.NumberFormat("pt-BR", {
   style: "currency",
@@ -125,7 +125,7 @@ function Sidebar() {
       "div",
       { className: "brand" },
       h("span", { className: "brand-mark" }, "GB"),
-      h("span", null, h("strong", null, "Ops Dashboard"), h("small", null, "React portfolio")),
+      h("span", null, h("strong", null, "Enterprise Dashboard"), h("small", null, "React demo")),
     ),
     h(
       "nav",
@@ -156,8 +156,8 @@ function Header({ period }) {
       "div",
       null,
       h("p", { className: "eyebrow" }, "Operação empresarial"),
-      h("h1", null, "Painel operacional integrado"),
-      h("p", { className: "lede" }, "Acompanhamento de pedidos, estoque, finanças e integrações em uma visão executiva."),
+      h("h1", null, "Dashboard empresarial"),
+      h("p", { className: "lede" }, "Pedidos, estoque, finanças e integrações em uma visão executiva para operação corporativa."),
     ),
     h(
       "div",

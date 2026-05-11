@@ -1,12 +1,12 @@
-# Ops Dashboard React
+# Enterprise Dashboard React
 
-Dashboard operacional em React para demonstrar uma visão corporativa de pedidos, estoque, conciliação financeira e integrações com sistemas empresariais.
+Dashboard empresarial em React para demonstrar uma visão corporativa de pedidos, estoque, conciliação financeira e integrações com sistemas empresariais.
 
 Este projeto foi criado como peça de portfólio para mostrar experiência em interfaces administrativas, sistemas internos, dados operacionais, APIs e rotinas de negócio.
 
 ## Preview
 
-Demo online: https://georgebarret0.github.io/ops-dashboard-react/
+Demo online: https://georgebarret0.github.io/enterprise-dashboard-react/
 
 ![Preview do dashboard](ops-dashboard-preview.png)
 
@@ -33,13 +33,13 @@ Demo online: https://georgebarret0.github.io/ops-dashboard-react/
 Coloque a pasta do projeto em:
 
 ```txt
-C:\AppServ\www\git\ops-dashboard-react
+C:\AppServ\www\git\enterprise-dashboard-react
 ```
 
 Depois acesse:
 
 ```txt
-http://localhost/git/ops-dashboard-react/
+http://localhost/git/enterprise-dashboard-react/
 ```
 
 ## Objetivo técnico

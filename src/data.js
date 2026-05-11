@@ -1,4 +1,4 @@
-window.opsDashboardData = {
+window.enterpriseDashboardData = {
   filters: {
     periods: ["Hoje", "7 dias", "30 dias", "Trimestre"],
     channels: ["Todos", "ERP", "E-commerce", "Atacado", "Interno"],
