@@ -1,0 +1,18 @@
+{
+  "name": "ops-dashboard-react",
+  "version": "1.0.0",
+  "description": "Dashboard operacional em React para portfólio profissional.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "react",
+    "dashboard",
+    "enterprise",
+    "erp",
+    "portfolio"
+  ],
+  "author": "George Barreto",
+  "license": "MIT"
+}
