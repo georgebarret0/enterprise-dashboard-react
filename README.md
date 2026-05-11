@@ -6,6 +6,8 @@ Este projeto foi criado como peça de portfólio para mostrar experiência em in
 
 ## Preview
 
+Demo online: https://georgebarret0.github.io/ops-dashboard-react/
+
 ![Preview do dashboard](ops-dashboard-preview.png)
 
 ## Funcionalidades
