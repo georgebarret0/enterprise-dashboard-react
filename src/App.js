@@ -72,9 +72,9 @@ function App() {
         }),
         h(StatCard, {
           icon: "package-search",
-          label: "Estoque crítico",
+          label: "Alertas gerenciais",
           value: totals.criticalStock,
-          caption: "SKUs abaixo do mínimo",
+          caption: "Indicadores fora da meta",
           trend: "Repor hoje",
           tone: "warn",
         }),
@@ -113,7 +113,7 @@ function Sidebar() {
   const items = [
     ["layout-dashboard", "Visão geral"],
     ["shopping-cart", "Pedidos"],
-    ["package", "Estoque"],
+    ["bar-chart-3", "KPIs"],
     ["badge-dollar-sign", "Financeiro"],
     ["plug-zap", "Integrações"],
   ];
@@ -155,9 +155,9 @@ function Header({ period }) {
     h(
       "div",
       null,
-      h("p", { className: "eyebrow" }, "Operação empresarial"),
-      h("h1", null, "Dashboard empresarial"),
-      h("p", { className: "lede" }, "Pedidos, estoque, finanças e integrações em uma visão executiva para operação corporativa."),
+      h("p", { className: "eyebrow" }, "Relatórios gerenciais"),
+      h("h1", null, "Dashboard gerencial"),
+      h("p", { className: "lede" }, "KPIs, prioridades, desempenho financeiro e integrações em uma visão executiva para apoiar decisões de negócio."),
     ),
     h(
       "div",
@@ -345,7 +345,7 @@ function InventoryPanel() {
   return h(
     "article",
     { className: "panel" },
-    h(PanelHeader, { icon: "package-search", title: "Estoque monitorado", meta: "mínimos operacionais" }),
+    h(PanelHeader, { icon: "package-search", title: "Riscos operacionais", meta: "pontos de decisão" }),
     h(
       "div",
       { className: "inventory-list" },
@@ -355,9 +355,9 @@ function InventoryPanel() {
         return h(
           "div",
           { className: "inventory-row", key: item.sku },
-          h("div", null, h("strong", null, item.item), h("span", null, `${item.sku} | cobertura ${item.coverage}`)),
+          h("div", null, h("strong", null, item.item), h("span", null, `${item.sku} | impacto ${item.coverage}`)),
           h("div", { className: "stock-line" }, h("span", { className: critical ? "low" : "", style: { width: `${percent}%` } })),
-          h("small", null, `${item.stock}/${item.min}`),
+          h("small", null, `${item.stock}/${item.min} pts`),
         );
       }),
     ),

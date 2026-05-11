@@ -1,7 +1,7 @@
 {
   "name": "enterprise-dashboard-react",
   "version": "1.0.0",
-  "description": "Dashboard empresarial em React para portfólio profissional.",
+  "description": "Dashboard gerencial em React para portfólio profissional.",
   "private": true,
   "scripts": {
     "start": "npx serve ."

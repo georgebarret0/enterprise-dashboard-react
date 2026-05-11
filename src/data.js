@@ -101,10 +101,10 @@ window.enterpriseDashboardData = {
     },
   ],
   inventory: [
-    { sku: "SKU-4482", item: "Kit embalagem premium", stock: 18, min: 30, coverage: "2 dias" },
-    { sku: "SKU-7710", item: "Produto curva A", stock: 42, min: 65, coverage: "4 dias" },
-    { sku: "SKU-2209", item: "Peça reposição fiscal", stock: 76, min: 50, coverage: "11 dias" },
-    { sku: "SKU-9051", item: "Insumo operacional", stock: 9, min: 25, coverage: "1 dia" },
+    { sku: "KPI-4482", item: "Margem abaixo da meta", stock: 18, min: 30, coverage: "alto" },
+    { sku: "KPI-7710", item: "Prazo médio acima do previsto", stock: 42, min: 65, coverage: "médio" },
+    { sku: "KPI-2209", item: "Volume concentrado por canal", stock: 76, min: 50, coverage: "baixo" },
+    { sku: "KPI-9051", item: "Pendência financeira crítica", stock: 9, min: 25, coverage: "alto" },
   ],
   reconciliation: [
     { label: "Conciliado", value: 84, color: "good" },
@@ -114,7 +114,7 @@ window.enterpriseDashboardData = {
   timeline: [
     "Carga de pedidos validada com 238 registros processados.",
     "Integração financeira identificou 5 divergências para revisão.",
-    "Reposição automática sugerida para 3 SKUs abaixo do mínimo.",
+    "Painel gerencial destacou 3 indicadores fora da meta.",
     "Fila do ERP normalizada após reprocessamento da rotina fiscal.",
   ],
 };

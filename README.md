@@ -1,23 +1,23 @@
 # Enterprise Dashboard React
 
-Dashboard empresarial em React para demonstrar uma visão corporativa de pedidos, estoque, conciliação financeira e integrações com sistemas empresariais.
+Dashboard gerencial em React para demonstrar relatórios executivos, KPIs, indicadores operacionais e apoio à tomada de decisão.
 
-Este projeto foi criado como peça de portfólio para mostrar experiência em interfaces administrativas, sistemas internos, dados operacionais, APIs e rotinas de negócio.
+Este projeto foi criado como peça de portfólio para mostrar experiência em interfaces administrativas, leitura de dados operacionais, organização de indicadores e construção de telas úteis para gestão.
 
 ## Preview
 
 Demo online: https://georgebarret0.github.io/enterprise-dashboard-react/
 
-![Preview do dashboard](ops-dashboard-preview.png)
+![Preview do dashboard gerencial](enterprise-dashboard-preview.png)
 
 ## Funcionalidades
 
-- Indicadores de receita, estoque crítico, integrações e ocorrências.
+- Indicadores de receita, desempenho, integrações e ocorrências.
 - Filtros por período, canal e status.
 - Tabela de pedidos e rotinas operacionais.
 - Painel de integrações com ERP e financeiro.
-- Monitoramento simples de estoque mínimo.
-- Resumo de conciliação financeira.
+- Visão de riscos operacionais e pontos de decisão.
+- Resumo financeiro e indicadores de conciliação.
 - Layout responsivo para desktop, tablet e celular.
 
 ## Tecnologias
@@ -46,11 +46,11 @@ http://localhost/git/enterprise-dashboard-react/
 
 O foco não é simular uma empresa real, mas mostrar domínio sobre problemas comuns em sistemas corporativos:
 
-- acompanhamento de operação;
-- rotinas de ERP;
-- controle de estoque;
-- conciliação financeira;
-- pedidos e status de processamento;
+- relatórios gerenciais;
+- acompanhamento de KPIs;
+- leitura executiva de operação;
+- apoio à tomada de decisão;
+- priorização de ocorrências;
 - telas administrativas objetivas.
 
 ## Próximas evoluções possíveis
@@ -59,4 +59,4 @@ O foco não é simular uma empresa real, mas mostrar domínio sobre problemas co
 - Persistir filtros no navegador.
 - Adicionar autenticação simples.
 - Criar exportação CSV.
-- Transformar em Vite + Tailwind CSS.
+- Evoluir para Vite + TypeScript.
