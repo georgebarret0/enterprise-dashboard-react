@@ -125,7 +125,7 @@ function Sidebar() {
       "div",
       { className: "brand" },
       h("span", { className: "brand-mark" }, "GB"),
-      h("span", null, h("strong", null, "Enterprise Dashboard"), h("small", null, "React demo")),
+      h("span", null, h("strong", null, "Enterprise Dashboard"), h("small", null, "React demo | George Barreto")),
     ),
     h(
       "nav",

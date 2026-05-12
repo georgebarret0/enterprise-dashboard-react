@@ -17,7 +17,7 @@
   --bad: #be123c;
   --radius: 8px;
   font-family: "Segoe UI", Inter, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 * {
@@ -79,13 +79,14 @@ button {
 
 .brand-mark {
   display: grid;
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   place-items: center;
-  border: 1px solid rgba(110, 231, 183, 0.46);
-  border-radius: var(--radius);
-  background: rgba(110, 231, 183, 0.14);
-  color: #d8fff2;
+  border: 1px solid rgba(72, 166, 255, 0.55);
+  border-radius: 0;
+  background: linear-gradient(135deg, #070a0f, #0c1b2b);
+  color: #7cc5ff;
+  font-size: 14px;
   font-weight: 800;
 }
 
@@ -135,7 +136,7 @@ button {
   background: rgba(255, 255, 255, 0.04);
   color: #aec0bb;
   padding: 12px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .workspace {
@@ -157,7 +158,7 @@ button {
 .eyebrow {
   margin: 0 0 8px;
   color: var(--accent);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -171,7 +172,7 @@ p {
 h1 {
   margin-bottom: 8px;
   color: #111917;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1.16;
 }
 
@@ -180,7 +181,7 @@ h1 {
   max-width: 760px;
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.55;
 }
 
@@ -358,13 +359,13 @@ select {
 .stat-label {
   margin: 12px 0 6px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .stat-card strong {
   display: block;
   color: var(--text);
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.2;
 }
 
@@ -413,7 +414,7 @@ select {
 .panel-header h2 {
   margin: 0;
   color: var(--text);
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .panel-header small {
@@ -465,7 +466,7 @@ td small {
 
 .chart-summary strong {
   color: var(--text);
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .integration-list,
@@ -511,7 +512,7 @@ td strong {
 .status-dot,
 .status-badge,
 .channel-pill {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
   white-space: nowrap;
 }
@@ -619,13 +620,13 @@ tbody tr:hover {
 }
 
 .recon-item strong {
-  font-size: 21px;
+  font-size: 19px;
 }
 
 .recon-item span {
   margin-top: 4px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .timeline {
@@ -758,7 +759,7 @@ tbody tr:hover {
   }
 
   h1 {
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .stats-grid,
